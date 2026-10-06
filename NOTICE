@@ -1,0 +1,57 @@
+TaskWraith Observatory
+Copyright 2026 Chris Izatt
+
+---------------------------------------------------------------------------
+Apache-2.0 components vendored from TaskWraith
+---------------------------------------------------------------------------
+
+This product includes software originally developed as part of TaskWraith
+(https://github.com/boggspa/TaskWraith), Copyright 2026 Chris Izatt, licensed
+under the Apache License 2.0.
+
+The components are the four verbatim copies under src/vendor/taskwraith/:
+
+  - main/services/HostWeatherService.ts
+  - shared/skyAstronomy.ts
+  - renderer/src/lib/brightStarCatalog.ts
+  - renderer/src/lib/skyScene.ts
+
+They are vendored unmodified from the upstream release tagged v1.9.8; all four
+files were verified byte-identical to that tag. See
+src/vendor/taskwraith/PROVENANCE.md for the full mapping and refresh procedure.
+In a packaged macOS app, that record is beside this NOTICE as
+TASKWRAITH-PROVENANCE.md.
+
+These files are compiled into any distributed build of this application, so
+this NOTICE and the accompanying LICENSE travel with the binary as well as with
+the source. A packaged app must ship both.
+
+---------------------------------------------------------------------------
+Third-party trademarks — NOT covered by the licence grant
+---------------------------------------------------------------------------
+
+The Apache License 2.0 grants no trademark rights (section 6). The marks below
+are therefore excluded from the grant in LICENSE. Each is reproduced unmodified
+solely to identify the traffic source it represents, in reliance on the
+applicable owner's published brand guidance:
+
+  - src/renderer/src/assets/traffic-sources/x-logo-white.png
+      X (formerly Twitter), from X's Brand Toolkit.
+  - src/renderer/src/assets/traffic-sources/github-invertocat-white.png
+      GitHub, from GitHub's Brand Toolkit.
+  - src/renderer/src/assets/traffic-sources/google-g-full-color.png
+      Google, from Google's published brand guidance.
+  - src/renderer/src/assets/traffic-sources/threads-app-icon.png
+      Threads (Meta). Meta's public press material did not provide a standalone
+      logo PNG, so this is a format-normalised copy of the official Threads web
+      app icon and is explicitly not represented as a press-kit asset.
+
+Download dates, source URLs and the per-mark conditions are recorded in
+src/renderer/src/assets/traffic-sources/ASSET-SOURCES.md.
+In a packaged macOS app, that record is beside this NOTICE as ASSET-SOURCES.md.
+
+No trademark licence is granted or implied, and nothing in this repository
+implies endorsement by X Corp., GitHub, Inc., Google LLC or Meta Platforms,
+Inc. TaskWraith Observatory is an independent companion to TaskWraith by the
+same author; the TaskWraith marks in src/renderer/src/assets/ remain subject to
+that project's own terms.
