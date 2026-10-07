@@ -12,9 +12,11 @@ notarised by Apple, so they open without Gatekeeper warnings.
 
 ## What it shows
 
-- **Repository tabs.** TaskWraith plus up to eight other local Git worktrees:
-  commits, tracked lines, active days, branches, ahead/behind, working-tree
-  change counts and self-expiring work-claim markers.
+- **Repository tabs.** On first launch, choose a folder: that repository
+  becomes the primary tab, and **+ Add repository** in the title bar adds up
+  to eight more local Git worktrees in one step. Each tab shows commits,
+  tracked lines, active days, branches, ahead/behind, working-tree change
+  counts and self-expiring work-claim markers.
 - **GitHub.** Stars, forks, watchers, issues, release download counters and
   star history. With a credential that has push access to the repository
   (a `gh auth login` session or a fine-grained token), also views, clones,
